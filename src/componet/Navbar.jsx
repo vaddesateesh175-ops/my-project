@@ -1,6 +1,6 @@
 import React from "react";
 
-function Nabar(){
+function Navbar(){
     return(
      <nav className="navbar bg-body-tertiary">
       <div className="container-fluid">
@@ -17,3 +17,5 @@ function Nabar(){
       </div>
     </nav>)
 }
+
+export default Navbar;
