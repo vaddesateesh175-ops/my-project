@@ -1,14 +1,10 @@
-import Navbar from "./componet/Navbar"
-import Counter from "./features/counter"
+import Todolist from "./features/todolist";
 
 
 function App(){
-  return(
-    <div>
-      <Navbar></Navbar>
-      <Counter></Counter>
-    </div>
-  );
+  return(<div>
+    <h1>TODOLIST</h1>
+    <Todolist></Todolist>
+  </div>)
 }
-
 export default App;

@@ -17,3 +17,4 @@ function Nabar(){
       </div>
     </nav>)
 }
+export default Nabar;
