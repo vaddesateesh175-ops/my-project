@@ -1,16 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Navbar from "./componet/Navbar"
+import Counter from "./features/counter"
 
-function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <h1>sateesh</h1>
-      
-    
-  )
+function App(){
+  return(
+    <div>
+      <Navbar></Navbar>
+      <Counter></Counter>
+    </div>
+  );
 }
 
 export default App;

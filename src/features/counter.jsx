@@ -1,15 +1,14 @@
 import React from "react";
 
+
 function Counter(){
-    const [count, setCount]=React.useState(0)
-
-     return(
-        <div>
-            <h1>counter:{count}</h1>
-            <button>increment</button>
-            <button>decrement</button>
-        </div>
-     );
-
+  const[c,setc]=React.useState()
+  function inc(){
+    setc(c+1)
+  }
+  return(<div>
+    <h1>Counter:{c}</h1>
+    <button onClick={()=>{inc()}}>increment</button>
+  </div>)
 }
-export default Counter;
+export default Counter
